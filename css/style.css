@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    text-align: center;
+    color: rgb(7, 159, 197);
+    text-shadow: 3px 2px 9px rgb(110, 191, 211);
+    font-size: large;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Arimo', sans-serif;
+    max-width: 900px;
+    background-color: #f5f5eb;
+    margin: 0 auto;
+}
+
+.form {
+    box-sizing: border-box;
+    border: 7px solid #079fc5;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5;
+    font-size: large;
+}
+
+.form__field {
+    border-radius: 3px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.form__button {
+    background-color: rgb(7, 159, 197);
+    color: #f5f5eb;
+    font-size: larger;
+    border-color: rgb(7, 159, 197);
+}
+.form__button:hover{
+    background-color: rgb(8, 98, 121);
+    border: 5px solid rgb(7, 159, 197);
+}
+
+.exchangeRate {
+    text-align: center;
+    line-height: 2;
+}
+
+.result {
+    color: rgb(7, 159, 197);
+    line-height: 2;
+    font-size: xx-large;
+    text-shadow: 3px 2px 9px rgb(110, 191, 211);
+    border-bottom: 7px solid rgb(7, 159, 197);
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
