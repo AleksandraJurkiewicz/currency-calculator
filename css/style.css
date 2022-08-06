@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    background-image: url("../images/tło.jpg");
+    background-size: cover;
 }
 
 *,
@@ -9,8 +11,8 @@ html {
 
 .header {
     text-align: center;
-    color: rgb(7, 159, 197);
-    text-shadow: 3px 2px 9px rgb(110, 191, 211);
+    color: rgb(30, 169, 103);
+    text-shadow: 3px 2px 9px rgb(23, 158, 95);
     font-size: large;
     box-sizing: border-box;
 }
@@ -18,18 +20,22 @@ html {
 .body {
     font-family: 'Arimo', sans-serif;
     max-width: 900px;
-    background-color: #f5f5eb;
+    background-color: rgba(0, 0, 0, 0.816);
     margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.674);
 }
 
 .form {
     box-sizing: border-box;
-    border: 7px solid #079fc5;
+    border: 7px solid 7, 159, 86;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     line-height: 2.5;
     font-size: large;
+    color: #f5f5eb;
 }
 
 .form__field {
@@ -39,27 +45,28 @@ html {
 }
 
 .form__button {
-    background-color: rgb(7, 159, 197);
+    background-color: rgb(30, 169, 103);
     color: #f5f5eb;
     font-size: larger;
-    border-color: rgb(7, 159, 197);
+    border-color: rgb(30, 169, 103);
 }
 .form__button:hover{
-    background-color: rgb(8, 98, 121);
-    border: 5px solid rgb(7, 159, 197);
+    background-color: rgb(9, 157, 85);
+    border: 5px solid rgb(7, 116, 64);
 }
 
 .exchangeRate {
     text-align: center;
     line-height: 2;
+    color: #f5f5eb;
 }
 
 .result {
-    color: rgb(7, 159, 197);
+    color: rgb(30, 169, 103);
     line-height: 2;
     font-size: xx-large;
-    text-shadow: 3px 2px 9px rgb(110, 191, 211);
-    border-bottom: 7px solid rgb(7, 159, 197);
+    text-shadow: 3px 2px 9px rgb(23, 158, 95);
+    border-bottom: 7px solid rgb(30, 169, 103);
     max-width: 500px;
     text-align: center;
     margin: 0 auto;
