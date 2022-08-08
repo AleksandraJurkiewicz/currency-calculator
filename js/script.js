@@ -14,25 +14,26 @@
             default: "N/A"
         }
     }
-    const updateResultText = (result) => {
-        const resultElement = document.querySelector(".js-result");
-        resultElement.innerText = result.toFixed(2);
-    }
 
     const onFormSubmit = (event) => {
         event.preventDefault();
+
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency")
+        const resultElement = document.querySelector(".js-result");
+
         const result = calculateResult(amountElement.value, currencyElement.value);
-    updateResultText();
-    }
+
+        resultElement.innerText = result.toFixed(2);
+    };
 
     const init = () => {
         const formElement = document.querySelector(".js-form");
+
         formElement.addEventListener("submit", onFormSubmit);
-    
+
         welcome();
-    }
-    
+    };
+
     init();
 }
